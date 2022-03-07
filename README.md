@@ -15,7 +15,7 @@ The  following  is  a  detailed  description  of  two  datasets  that  you  will
 datasets can be found in the Project_A_Supp.zip file which has been uploaded to Quercus.  
  
 ## MNIST-1D:  
-• Paper: Scaling down deep learning [16]: https://arxiv.org/abs/2011.14439   
+• Paper: Scaling down deep learning: https://arxiv.org/abs/2011.14439   
 • GitHub link: https://github.com/greydanus/mnist1d  
 • Description:  This dataset  is a 1-Dimensional  and low-memory  analogue  of the popular 
 digit classification dataset, MNIST. In the same way as the MNIST dataset, the MNIST-
@@ -29,7 +29,7 @@ analogous to shear in 2D images, and lastly, downsampling to 40 data points.
 • Data size 4000 train data + 1000 test data (partitioned by the dataset promoters). 
   
 ## HMT
-• Paper: Multi-class texture analysis in colorectal cancer histology [17]: 
+• Paper: Multi-class texture analysis in colorectal cancer histology: 
 https://www.nature.com/articles/srep27988   
 • Description: This dataset was formed to elevate the performance of ML-based solutions 
 in  “histopathological  tissue  classification.”  HMT  is  an  equally  balanced  dataset  that 
