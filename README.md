@@ -7,7 +7,7 @@ trained on different datasets. The first model is a very shallow CNN trained on 
 trained on the “HMT” dataset utilized  for histopathologic  tissue classification. 
 
 To carry out the project, a couple of attribution methods are considered: 
-A perturbation-based metod, Semantic Input Sampling for Explanation (SISE)[[2]](#2). and
+A perturbation-based metod, Semantic Input Sampling for Explanation (SISE)[[1]](#1). and
 a backpropagation-based method, Integrated gradient  [[2]](#2).
 
 # Datasets  
