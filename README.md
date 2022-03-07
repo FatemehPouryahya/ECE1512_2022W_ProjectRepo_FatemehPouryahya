@@ -6,7 +6,7 @@ trained on different datasets. The first model is a very shallow CNN trained on 
 , a small-scale dataset prepared for generic array classification. The second model is a VGG-network 
 trained on the “HMT” dataset utilized  for histopathologic  tissue classification. 
 
-To carry out the project, a couple of attribution methods are considered. 
+To carry out the project, a couple of attribution methods are considered: 
 A perturbation-based metod, Semantic Input Sampling for Explanation (SISE)[[2]](#2). and
 a backpropagation-based method, Integrated gradient  [[2]](#2).
 
