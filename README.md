@@ -6,6 +6,10 @@ trained on different datasets. The first model is a very shallow CNN trained on 
 , a small-scale dataset prepared for generic array classification. The second model is a VGG-network 
 trained on the “HMT” dataset utilized  for histopathologic  tissue classification. 
 
+To carry out the project, a couple of attribution methods are considered. 
+a perturbation-based metod, Semantic Input Sampling for Explanation (SISE)[[2]](#2). and
+a backpropagation-based method, Integrated gradient  [[2]](#2).
+
 ## Datasets  
 The  following  is  a  detailed  description  of  two  datasets  that  you  will  need  for  Project  A.  Both 
 datasets can be found in the Project_A_Supp.zip file which has been uploaded to Quercus.  
@@ -36,3 +40,14 @@ simple stroma, (c) complex stroma, (d) immune cell conglomerates, (e) debris and
 • Availability: Publicly available (for academic purposes).  
 • Resources needed: CPU  
 • Data size: 4504 train images + 496 test images.  
+
+## References
+<a id="1">[1]</a> 
+Sattarzadeh,  Sam,  Mahesh  Sudhakar,  Anthony  Lem,  Shervin  Mehryar,  Konstantinos  N. Plataniotis,  Jongseong  Jang,  Hyunwoo  Kim,  Yeonjeong  Jeong,  Sangmin  Lee,  and  Kyunghoon Bae.  "Explaining  convolutional  neural networks  through  attribution-based  input  sampling  and block-wise  feature  aggregation."  In 34th  AAAI Conference  on  Artificial  Intelligence.  2021. https://arxiv.org/abs/2010.00672 
+
+<a id="2">[2]</a> 
+Sundararajan, Mukund, Ankur Taly, and Qiqi Yan. "Axiomatic attribution for deep networks." 
+In International Conference on Machine Learning, pp. 3319-3328. PMLR, 2017. 
+https://arxiv.org/abs/1703.01365  
+
+
