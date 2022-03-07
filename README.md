@@ -1,5 +1,5 @@
-## ECE1512_2022W_ProjectRepo_FatemehPouryahya
-# Visual Interpretation of Convolutional Neural Networks
+# ECE1512_2022W_ProjectRepo_FatemehPouryahya
+## Visual Interpretation of Convolutional Neural Networks
 
 This project  endeavors to generate  explanation  maps that  interpret the behavior of two models 
 trained on different datasets. The first model is a very shallow CNN trained on “MNIST-1D” 
@@ -10,11 +10,11 @@ To carry out the project, a couple of attribution methods are considered.
 A perturbation-based metod, Semantic Input Sampling for Explanation (SISE)[[2]](#2). and
 a backpropagation-based method, Integrated gradient  [[2]](#2).
 
-## Datasets  
+# Datasets  
 The  following  is  a  detailed  description  of  two  datasets  that  you  will  need  for  Project  A.  Both 
 datasets can be found in the Project_A_Supp.zip file which has been uploaded to Quercus.  
  
-# MNIST-1D:  
+## MNIST-1D:  
 • Paper: Scaling down deep learning [16]: https://arxiv.org/abs/2011.14439   
 • GitHub link: https://github.com/greydanus/mnist1d  
 • Description:  This dataset  is a 1-Dimensional  and low-memory  analogue  of the popular 
@@ -28,7 +28,7 @@ analogous to shear in 2D images, and lastly, downsampling to 40 data points.
 • Resources needed: CPU  
 • Data size 4000 train data + 1000 test data (partitioned by the dataset promoters). 
   
-# HMT
+## HMT
 • Paper: Multi-class texture analysis in colorectal cancer histology [17]: 
 https://www.nature.com/articles/srep27988   
 • Description: This dataset was formed to elevate the performance of ML-based solutions 
@@ -41,7 +41,7 @@ simple stroma, (c) complex stroma, (d) immune cell conglomerates, (e) debris and
 • Resources needed: CPU  
 • Data size: 4504 train images + 496 test images.  
 
-## References
+# References
 <a id="1">[1]</a> 
 Sattarzadeh,  Sam,  Mahesh  Sudhakar,  Anthony  Lem,  Shervin  Mehryar,  Konstantinos  N. Plataniotis,  Jongseong  Jang,  Hyunwoo  Kim,  Yeonjeong  Jeong,  Sangmin  Lee,  and  Kyunghoon Bae.  "Explaining  convolutional  neural networks  through  attribution-based  input  sampling  and block-wise  feature  aggregation."  In 34th  AAAI Conference  on  Artificial  Intelligence.  2021. https://arxiv.org/abs/2010.00672 
 
